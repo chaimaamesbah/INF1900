@@ -1,36 +1,115 @@
-# Embedded System Project
+# **Projet Initial de Système Embarqué**
 
-## Project Overview
+### **Informations Générales**
+- **Équipe** : 0314  
+- **Auteurs** : Asmaa Sabouri, Sara Dakir, Imane Abdeljalil, Chaïmaa Mesbah  
+- **Nom du robot** : Moulay Sultan  
 
-This project involves the collaborative development of a hardware and software system based on a microcontroller board. The technical concepts covered in this project include understanding both hardware and software elements, as well as the interactions required to build and comprehend a simple yet complete computer system with inputs, outputs, and peripherals.
+Ce projet consiste à programmer un robot autonome capable de réaliser les tâches suivantes :
+1. Chercher une extrémité.  
+2. Traverser un parcours en détectant les poteaux.  
+3. Générer un rapport détaillant les constats pour chaque mode.  
 
-## Key Concepts and Objectives
+Le robot utilise une machine à états pour gérer les différentes phases et transitions entre les modes.
 
-The project introduces the following concepts:
+---
 
-1. **Familiarization with Hardware and Software**  
-   Learn the essential components of a microcontroller-based system, including how to interface with peripherals and handle input/output operations.
+## **Guide d'Utilisation**
 
-2. **Programming at Different Levels**  
-   Explore programming at both low and high levels to control the system. This includes writing embedded C code for direct control of hardware, and potentially higher-level code for interfacing with the system.
+### **1. Compiler la Librairie**
+Avant d’utiliser le projet, compilez la librairie contenant toutes les classes nécessaires :  
+- Accédez au répertoire `lib`.  
+- Exécutez la commande suivante dans le terminal :  
+  ```bash
+  make
+  ```
 
-3. **Configuration Management**  
-   Implement configuration management practices to organize project files, maintain different versions of the system, and ensure smooth collaboration in a team environment.
+### **2. Compiler le Code Principal et Programmer le Robot**
+- Connectez le robot à l’ordinateur via un câble USB.  
+- Compilez et téléchargez le code principal situé dans le répertoire `app` avec la commande suivante :  
+  ```bash
+  make install
+  ```
+- Débranchez le robot pour qu'il puisse fonctionner de manière autonome.
 
-4. **Code Inspections and Testing**  
-   Introduce methods for code review and testing to ensure the reliability and performance of the system. Testing will cover both unit tests for individual components and integration tests for the entire system.
+### **3. Modes Disponibles**
 
-5. **Best Practices in Programming**  
-   Gradually introduce core programming practices, such as code structure, readability, maintainability, and the use of version control systems like Git for managing source code.
+#### **Mode 1 : Chercher Extrémité**
+- Positionnez le robot sur le **point A ou B**, aligné sur l'une des lignes de l'intersection en X.  
+- Sélectionnez le mode en appuyant sur le bouton ***reset*** lorsque la DEL est allumée en ***vert***.  
 
-## System Components
+#### **Mode 2 : Traverser Parcours**
+- Placez le robot sur le **point C ou D**, orienté vers l'intersection en X.  
+- Ajoutez un poteau au **point 1 ou 2**.  
+- Appuyez sur le bouton ***reset*** lorsque la DEL est allumée en ***rouge***.  
+- Une fois que le robot s'arrête devant un poteau, déplacez celui-ci vers le prochain point désigné (3, 4, 5 ou 6).  
+- Appuyez à nouveau sur le bouton ***interrupt*** pour poursuivre l’épreuve.  
 
-- **Microcontroller Board**: The core of the system, handling inputs, outputs, and communication with peripherals.
-- **Input/Output Devices**: Includes sensors, buttons, LEDs, and other devices to interact with the system.
-- **Peripherals**: External devices connected to the microcontroller for additional functionality, such as communication interfaces or motor control.
+#### **Mode 3 : Afficher Rapport**
+- Connectez le robot à l’ordinateur via un câble USB.  
+- Exécutez la commande suivante dans le terminal pour afficher les données :  
+  ```bash
+  serieViaUSB -l
+  ```
+- Sélectionnez ce mode en appuyant sur le bouton ***reset*** lorsque la DEL est allumée en ***ambre***.
 
-## Project Goals
+---
 
-- Develop a fully functioning embedded system that integrates both hardware and software components.
-- Ensure that the system is capable of interacting with its environment through various inputs and outputs.
-- Apply theoretical knowledge to practical, hands-on development in embedded systems.
+## **Structure du Projet**
+
+### **Fichier `app`**
+Ce fichier contient le programme principal (`main`) qui :  
+- Gère la sélection du mode à l’aide d’une machine à états.  
+- Définit les comportements du robot pour chaque mode sélectionné.  
+
+| **État actuel**        | **Entrée**                      | **État suivant**         | **Action**                                  |
+|------------------------|---------------------------------|-------------------------|--------------------------------------------|
+| **AUCUN_MODE**         | Bouton reset appuyé (DEL verte) | `CHERCHER_EXTREMITE`    | Activation du mode de recherche            |
+| **AUCUN_MODE**         | Bouton reset appuyé (DEL rouge) | `TRAVERSER_PARCOURS`    | Activation du mode parcours                |
+| **AUCUN_MODE**         | Bouton reset appuyé (DEL ambre) | `AFFICHER_RAPPORT`      | Activation du mode rapport                 |
+| **CHERCHER_EXTREMITE** | Aucune                         | `AUCUN_MODE`            | Recherche d’extrémité                      |
+| **TRAVERSER_PARCOURS** | Aucune                         | `AUCUN_MODE`            | Traversée du parcours                      |
+| **AFFICHER_RAPPORT**   | Aucune                         | `AUCUN_MODE`            | Génération et affichage du rapport         |
+
+### **Fichier `lib`**
+Ce répertoire contient toutes les classes nécessaires pour le fonctionnement du robot, notamment :  
+
+#### **Classe `ChercherExtremite`**
+- Permet au robot de suivre les lignes et de détecter les extrémités à l’aide des capteurs de ligne.  
+
+#### **Classe `TrouverPoteau`**
+- Utilise les capteurs de ligne et de distance pour détecter les poteaux et gérer les intersections.  
+
+---
+
+## **Algorithmes Importants**
+
+### **Algorithme de Recherche d’Extrémité**
+1. **SUIVRE_LIGNE**  
+   - Suivre la ligne jusqu’à une intersection.  
+   - Ajuster la trajectoire si des capteurs latéraux sont éteints.  
+
+2. **VERIFIER_CAPTEURS_ALLUME**  
+   - Si tous les capteurs sont allumés, vérifier la présence d’une extrémité.  
+   - Sinon, continuer à suivre la ligne.  
+
+3. **EXTREMITE_TROUVEE**  
+   - Lorsque l’extrémité est trouvée, repositionner le robot et terminer la tâche.  
+
+### **Algorithme de Détection de Poteaux**
+1. **SUIVRE_LIGNE**  
+   - Suivre la ligne jusqu’à détecter un poteau à une distance spécifique.  
+
+2. **POTEAU_DETECTE**  
+   - Effectuer les actions nécessaires pour gérer le poteau détecté.  
+
+3. **INTERSECTION_DETECTEE**  
+   - Identifier les intersections et ajuster la direction pour poursuivre la tâche.  
+
+---
+
+## **Crédits**
+- Ce projet a été réalisé dans le cadre du cours **INF1900** à Polytechnique Montréal.  
+- Supervision par l’équipe pédagogique de Polytechnique Montréal.  
+
+---
