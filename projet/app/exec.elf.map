@@ -1,0 +1,1242 @@
+Archive member included to satisfy reference by file (symbol)
+
+../lib/liblibrairie1900.a(bouton.o)
+                              main.o (Bouton::Bouton(unsigned char))
+../lib/liblibrairie1900.a(can.o)
+                              main.o (can::can())
+../lib/liblibrairie1900.a(capteurDistance.o)
+                              main.o (CapteurDistance::CapteurDistance(can*, Del*))
+../lib/liblibrairie1900.a(capteurLigne.o)
+                              main.o (CapteurLigne::CapteurLigne(Roue*))
+../lib/liblibrairie1900.a(chercherExremite.o)
+                              main.o (ChercherExtremite::demarrer())
+../lib/liblibrairie1900.a(del.o)
+                              main.o (Del::Del())
+../lib/liblibrairie1900.a(memoire_24.o)
+                              main.o (Memoire24CXXX::Memoire24CXXX())
+../lib/liblibrairie1900.a(modeFonctionnement.o)
+                              main.o (ModeFonctionnement::verifierReset())
+../lib/liblibrairie1900.a(musique.o)
+                              main.o (Musique::Musique())
+../lib/liblibrairie1900.a(rapport.o)
+                              ../lib/liblibrairie1900.a(chercherExremite.o) (Rapport::definirpointDepartExtremite(Point))
+../lib/liblibrairie1900.a(roue.o)
+                              main.o (Roue::Roue())
+../lib/liblibrairie1900.a(trouverPoteau.o)
+                              main.o (TrouverPoteau::gererInterruption())
+../lib/liblibrairie1900.a(usart.o)
+                              ../lib/liblibrairie1900.a(rapport.o) (Usart::initialiser())
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+                              ../lib/liblibrairie1900.a(roue.o) (__udivmodqi4)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+                              ../lib/liblibrairie1900.a(roue.o) (__divmodhi4)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+                              ../lib/liblibrairie1900.a(trouverPoteau.o) (__udivmodsi4)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o (exit)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+                              ../lib/liblibrairie1900.a(chercherExremite.o) (__tablejump2__)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+                              main.o (__do_copy_data)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+                              ../lib/liblibrairie1900.a(capteurLigne.o) (__do_clear_bss)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o) (__udivmodhi4)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3.o)
+                              ../lib/liblibrairie1900.a(musique.o) (__subsf3)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3x.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3.o) (__addsf3x)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(divsf3.o)
+                              ../lib/liblibrairie1900.a(musique.o) (__divsf3)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(divsf3x.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(divsf3.o) (__divsf3x)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                              ../lib/liblibrairie1900.a(musique.o) (__fixunssfsi)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_inf.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_inf)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_nan.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_nan)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscA)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscB)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_round.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3.o) (__fp_round)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_split3.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_split3)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_zero.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_zero)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(mulsf3.o)
+                              ../lib/liblibrairie1900.a(musique.o) (__mulsf3)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(mulsf3.o) (__mulsf3x)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(sprintf.o)
+                              ../lib/liblibrairie1900.a(capteurDistance.o) (sprintf)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(sprintf.o) (vfprintf)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (strnlen_P)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(strnlen.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (strnlen)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(fputc.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (fputc)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(vfprintf_std.o) (__ultoa_invert)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(sprintf.o) (__prologue_saves__)
+/opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+                              /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(sprintf.o) (__epilogue_restores__)
+
+There are no discarded input sections
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw!x
+eeprom           0x00810000         0x00010000         rw!x
+fuse             0x00820000         0x00000003         rw!x
+lock             0x00830000         0x00000400         rw!x
+signature        0x00840000         0x00000400         rw!x
+user_signatures  0x00850000         0x00000400         rw!x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+LOAD main.o
+LOAD /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a
+LOAD ../lib/liblibrairie1900.a
+START GROUP
+LOAD /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a
+LOAD /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a
+LOAD /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a
+LOAD /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libatmega324pa.a
+END GROUP
+                0x00000000                        __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                0x00020000                        __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x00800060                        __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                0x0000ffa0                        __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x00010000                        __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                      __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                        __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                        __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                        __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x2aa4
+ *(.vectors)
+ .vectors       0x00000000       0x7c /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000007c                        . = ALIGN (0x2)
+                0x0000007c                        __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000007c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000007c                        __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+                0x0000007c                        . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000007c                        __ctors_start = .
+ *(.ctors)
+                0x0000007c                        __ctors_end = .
+                0x0000007c                        __dtors_start = .
+ *(.dtors)
+                0x0000007c                        __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x0000007c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+                0x0000007c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000007c        0xc /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000088       0x16 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+                0x00000088                __do_copy_data
+ .init4         0x0000009e       0x10 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+                0x0000009e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000ae        0x8 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ *(.init9)
+ *(.text)
+ .text          0x000000b6        0x4 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+                0x000000b6                __vector_20
+                0x000000b6                __vector_28
+                0x000000b6                __vector_24
+                0x000000b6                __vector_12
+                0x000000b6                __bad_interrupt
+                0x000000b6                __vector_6
+                0x000000b6                __vector_3
+                0x000000b6                __vector_23
+                0x000000b6                __vector_30
+                0x000000b6                __vector_25
+                0x000000b6                __vector_11
+                0x000000b6                __vector_13
+                0x000000b6                __vector_17
+                0x000000b6                __vector_19
+                0x000000b6                __vector_7
+                0x000000b6                __vector_27
+                0x000000b6                __vector_5
+                0x000000b6                __vector_4
+                0x000000b6                __vector_9
+                0x000000b6                __vector_2
+                0x000000b6                __vector_21
+                0x000000b6                __vector_15
+                0x000000b6                __vector_29
+                0x000000b6                __vector_8
+                0x000000b6                __vector_26
+                0x000000b6                __vector_14
+                0x000000b6                __vector_10
+                0x000000b6                __vector_16
+                0x000000b6                __vector_18
+                0x000000b6                __vector_22
+ .text          0x000000ba       0x4a main.o
+                0x000000ba                __vector_1
+ .text          0x00000104       0xc0 ../lib/liblibrairie1900.a(bouton.o)
+                0x00000104                Bouton::Bouton(unsigned char)
+                0x00000104                Bouton::Bouton(unsigned char)
+                0x0000015c                Bouton::estAppuyer()
+                0x00000188                Bouton::estRelacher(unsigned char)
+                0x000001b0                Bouton::desactiverInterruption()
+ .text          0x000001c4       0x60 ../lib/liblibrairie1900.a(can.o)
+                0x000001c4                can::can()
+                0x000001c4                can::can()
+                0x000001d0                can::~can()
+                0x000001d0                can::~can()
+                0x000001d6                can::lecture(unsigned char)
+ .text          0x00000224       0xd6 ../lib/liblibrairie1900.a(capteurDistance.o)
+                0x00000224                CapteurDistance::CapteurDistance(can*, Del*)
+                0x00000224                CapteurDistance::CapteurDistance(can*, Del*)
+                0x00000242                CapteurDistance::obtenirFrequence()
+                0x0000025a                CapteurDistance::afficherEtGererLeds()
+                0x000002a8                CapteurDistance::estPoteauDetecteDixCm()
+                0x000002d4                CapteurDistance::estPoteauDetecteTrenteCm()
+ .text          0x000002fa      0x510 ../lib/liblibrairie1900.a(capteurLigne.o)
+                0x000002fa                CapteurLigne::CapteurLigne(Roue*)
+                0x000002fa                CapteurLigne::CapteurLigne(Roue*)
+                0x0000030e                CapteurLigne::mettreAJourCapteurs()
+                0x00000344                CapteurLigne::obtenirNombreCapteursAllumes()
+                0x00000366                CapteurLigne::estUneLigne()
+                0x00000394                CapteurLigne::estSeulementMilieuActif()
+                0x000003c2                CapteurLigne::estCinqCapteursAllumes()
+                0x000003e6                CapteurLigne::estTroisCapteursDroiteActif()
+                0x00000408                CapteurLigne::estTroisCapteursGaucheActif()
+                0x0000042a                CapteurLigne::estTousCapteursEteints()
+                0x00000458                CapteurLigne::avancerEnSuivantLigne(unsigned char)
+                0x000004de                CapteurLigne::verifierCapteursAllume(unsigned char&, unsigned char&, bool&, bool&)
+                0x0000056c                CapteurLigne::verifierExtremiteGauche(bool&)
+                0x00000632                CapteurLigne::remettreMilieu(bool)
+                0x00000676                CapteurLigne::verifierExtremiteDroite(bool&)
+                0x00000720                CapteurLigne::ajusterTrajectoire(bool)
+                0x0000078a                CapteurLigne::tournerDroiteApresPointSix()
+                0x000007bc                CapteurLigne::replacerCorrectementExtremite()
+ .text          0x0000080a      0x426 ../lib/liblibrairie1900.a(chercherExremite.o)
+                0x0000080a                ChercherExtremite::trouverExtremite()
+                0x00000a0c                ChercherExtremite::reinitialiserCompteurs()
+                0x00000a1c                ChercherExtremite::definirPositionEtOrientation(Point, Orientation, Point)
+                0x00000ac0                ChercherExtremite::mettreAJourPositionEtOrientation()
+                0x00000b2e                ChercherExtremite::extremiteAtteinte()
+                0x00000be4                ChercherExtremite::demarrer()
+ .text          0x00000c30      0x1fc ../lib/liblibrairie1900.a(del.o)
+                0x00000c30                Del::allumerRouge()
+                0x00000c5e                Del::allumerVert()
+                0x00000c8c                Del::allumerAmbre()
+                0x00000cbe                Del::delayMsVariable(unsigned int)
+                0x00000cec                Del::Del()
+                0x00000cec                Del::Del()
+                0x00000cfe                Del::eteindre()
+                0x00000d30                Del::allumer(Couleur, unsigned int)
+                0x00000dcc                Del::clignoter(Couleur, unsigned char, unsigned int)
+ .text          0x00000e2c      0x35e ../lib/liblibrairie1900.a(memoire_24.o)
+                0x00000e2c                Memoire24CXXX::~Memoire24CXXX()
+                0x00000e2c                Memoire24CXXX::~Memoire24CXXX()
+                0x00000e2e                Memoire24CXXX::init()
+                0x00000e40                Memoire24CXXX::Memoire24CXXX()
+                0x00000e40                Memoire24CXXX::Memoire24CXXX()
+                0x00000e4c                Memoire24CXXX::choisir_banc(unsigned char)
+                0x00000e5e                Memoire24CXXX::lecture(unsigned int, unsigned char*)
+                0x00000f20                Memoire24CXXX::lecture(unsigned int, unsigned char*, unsigned char)
+                0x00000fea                Memoire24CXXX::ecriture(unsigned int, unsigned char)
+                0x0000107a                Memoire24CXXX::ecrire_page(unsigned int, unsigned char*, unsigned char)
+                0x00001144                Memoire24CXXX::ecriture(unsigned int, unsigned char*, unsigned char)
+ .text          0x0000118a       0x8c ../lib/liblibrairie1900.a(modeFonctionnement.o)
+                0x0000118a                ModeFonctionnement::verifierReset()
+                0x000011c0                ModeFonctionnement::enregistrerMode(Mode)
+                0x000011d0                ModeFonctionnement::lancerCycleSelection()
+ .text          0x00001216       0xaa ../lib/liblibrairie1900.a(musique.o)
+                0x00001216                Musique::Musique()
+                0x00001216                Musique::Musique()
+                0x0000122c                Musique::jouerNote(double)
+                0x000012bc                Musique::arreter()
+ .text          0x000012c0      0x17a ../lib/liblibrairie1900.a(rapport.o)
+                0x000012c0                Rapport::definirpointDepartExtremite(Point)
+                0x000012ce                Rapport::definirpointDepartParcours(Point)
+                0x000012dc                Rapport::definirOrientation(Orientation)
+                0x000012e2                Rapport::definirExtremiteTrouvee(Point)
+                0x000012e8                Rapport::pointEnString(Point)
+                0x00001306                Rapport::orientationEnString(Orientation)
+                0x00001322                Rapport::definirPoteau1(int)
+                0x00001332                Rapport::definirPoteau2(int)
+                0x00001342                Rapport::definirPoteau3(int)
+                0x00001352                Rapport::envoyerRapport()
+ .text          0x0000143a      0x2b2 ../lib/liblibrairie1900.a(roue.o)
+                0x0000143a                Roue::Roue()
+                0x0000143a                Roue::Roue()
+                0x0000146a                Roue::definirVitesse(Roues, Direction, unsigned char)
+                0x000014ce                Roue::controlerRoue(Roues, Direction, unsigned char)
+                0x000014d2                Roue::avancer(unsigned char)
+                0x000014fe                Roue::reculer(unsigned char)
+                0x0000152a                Roue::tourner(unsigned char, unsigned char)
+                0x00001554                Roue::tournerGauche(unsigned char, unsigned char)
+                0x0000158a                Roue::tournerDroite(unsigned char, unsigned char)
+                0x000015c2                Roue::tournerSurPlaceDroite(unsigned char)
+                0x000015ee                Roue::tournerSurPlaceGauche(unsigned char)
+                0x0000161a                Roue::accelerer(Roues, unsigned char, unsigned char)
+                0x00001670                Roue::ralentir(Roues, unsigned char, unsigned char)
+                0x000016d0                Roue::arreter()
+                0x000016e0                Roue::obtenirVitesseGauche()
+                0x000016e6                Roue::obtenirVitesseDroite()
+ .text          0x000016ec      0x6da ../lib/liblibrairie1900.a(trouverPoteau.o)
+                0x000016ec                TrouverPoteau::gererInterruption()
+                0x000016fe                TrouverPoteau::reinitialiserBoutonRelacheDetecte()
+                0x00001704                TrouverPoteau::verifierPresencePoteau()
+                0x0000186c                TrouverPoteau::trouverLigne()
+                0x000018ec                TrouverPoteau::jouerDeuxSonsAigus()
+                0x00001970                TrouverPoteau::jouerHuitSonsGraves()
+                0x000019c6                TrouverPoteau::reinitialiserAttributs()
+                0x000019d8                TrouverPoteau::mettreAJourPositionEtPositionPoteau()
+                0x00001a50                TrouverPoteau::trouverPoteau()
+                0x00001d50                TrouverPoteau::demarrer()
+ .text          0x00001dc6       0xba ../lib/liblibrairie1900.a(usart.o)
+                0x00001dc6                Usart::initialiser()
+                0x00001de2                Usart::transmettre(unsigned char)
+                0x00001df0                Usart::transmettreDonne(char const*)
+                0x00001e16                Usart::transmettreDonne(unsigned char)
+                0x00001e70                Usart::recevoir()
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(divsf3.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_round.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(sprintf.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(fputc.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .text          0x00001e80        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+                0x00001e80                        . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x00001e80      0x204 main.o
+                0x00001e80                main
+ .text.libgcc.mul
+                0x00002084        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.div
+                0x00002084       0x18 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+                0x00002084                __udivmodqi4
+ .text.libgcc   0x0000209c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.prologue
+                0x0000209c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.builtins
+                0x0000209c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fmul
+                0x0000209c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fixed
+                0x0000209c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .text.libgcc.mul
+                0x0000209c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x0000209c       0x28 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+                0x0000209c                __divmodhi4
+                0x0000209c                _div
+ .text.libgcc   0x000020c4        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x000020c4        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x000020c4        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x000020c4        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x000020c4        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x000020c4        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x000020c4       0x44 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x000020c4                __udivmodsi4
+ .text.libgcc   0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00002108        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc   0x00002108        0xc /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+                0x00002108                __tablejump2__
+ .text.libgcc.prologue
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00002114        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x00002114       0x28 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x00002114                __udivmodhi4
+ .text.libgcc   0x0000213c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000213c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000213c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000213c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000213c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.avr-libc.fplib
+                0x0000213c        0xe /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3.o)
+                0x0000213c                __subsf3
+                0x0000213e                __addsf3
+ .text.avr-libc.fplib
+                0x0000214a       0xcc /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3x.o)
+                0x0000216c                __addsf3x
+ .text.avr-libc.fplib
+                0x00002216        0x8 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(divsf3.o)
+                0x00002216                __divsf3
+ .text.avr-libc.fplib
+                0x0000221e       0xdc /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(divsf3x.o)
+                0x0000223e                __divsf3x
+                0x00002244                __divsf3_pse
+ .text.avr-libc.fplib
+                0x000022fa       0x5e /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                0x000022fa                __fixunssfsi
+ .text.avr-libc.fplib
+                0x00002358        0xc /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_inf.o)
+                0x00002358                __fp_inf
+ .text.avr-libc.fplib
+                0x00002364        0x6 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_nan.o)
+                0x00002364                __fp_nan
+ .text.avr-libc.fplib
+                0x0000236a        0xe /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                0x0000236a                __fp_pscA
+ .text.avr-libc.fplib
+                0x00002378        0xe /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                0x00002378                __fp_pscB
+ .text.avr-libc.fplib
+                0x00002386       0x22 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_round.o)
+                0x00002386                __fp_round
+ .text.avr-libc.fplib
+                0x000023a8       0x44 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_split3.o)
+                0x000023a8                __fp_split3
+                0x000023b8                __fp_splitA
+ .text.avr-libc.fplib
+                0x000023ec        0xe /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_zero.o)
+                0x000023ec                __fp_zero
+                0x000023ee                __fp_szero
+ .text.avr-libc.fplib
+                0x000023fa        0x8 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(mulsf3.o)
+                0x000023fa                __mulsf3
+ .text.avr-libc.fplib
+                0x00002402       0xd2 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                0x00002420                __mulsf3x
+                0x00002426                __mulsf3_pse
+ .text.avr-libc
+                0x000024d4       0x46 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(sprintf.o)
+                0x000024d4                sprintf
+ .text.avr-libc
+                0x0000251a      0x3ac /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                0x0000251a                vfprintf
+ .text.avr-libc
+                0x000028c6       0x16 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                0x000028c6                strnlen_P
+ .text.avr-libc
+                0x000028dc       0x16 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(strnlen.o)
+                0x000028dc                strnlen
+ .text.avr-libc
+                0x000028f2       0x60 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(fputc.o)
+                0x000028f2                fputc
+ .text.avr-libc
+                0x00002952       0xbc /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                0x00002952                __ultoa_invert
+ .text.libgcc.mul
+                0x00002a0e        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00002a0e        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc   0x00002a0e        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.prologue
+                0x00002a0e       0x38 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+                0x00002a0e                __prologue_saves__
+ .text.libgcc.builtins
+                0x00002a46        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x00002a46        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x00002a46        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x00002a46        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x00002a46        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc   0x00002a46        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.prologue
+                0x00002a46       0x36 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+                0x00002a46                __epilogue_restores__
+ .text.libgcc.builtins
+                0x00002a7c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00002a7c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00002a7c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+                0x00002a7c                        . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00002a7c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+                0x00002a7c                exit
+                0x00002a7c                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00002a7c        0x4 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x00002a80                        . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ .jumptables.gcc._ZN17ChercherExtremite16trouverExtremiteEv
+                0x00002a80        0xe ../lib/liblibrairie1900.a(chercherExremite.o)
+ .jumptables.gcc._ZN13TrouverPoteau13trouverPoteauEv
+                0x00002a8e       0x16 ../lib/liblibrairie1900.a(trouverPoteau.o)
+                0x00002aa4                        _etext = .
+
+.data           0x00800100      0x166 load address 0x00002aa4
+                0x00800100                        PROVIDE (__data_start = .)
+ *(.data)
+ .data          0x00800100        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ .data          0x00800100        0x0 main.o
+ .data          0x00800100        0x0 ../lib/liblibrairie1900.a(bouton.o)
+ .data          0x00800100        0x0 ../lib/liblibrairie1900.a(can.o)
+ .data          0x00800100        0x0 ../lib/liblibrairie1900.a(capteurDistance.o)
+ .data          0x00800100        0x0 ../lib/liblibrairie1900.a(capteurLigne.o)
+ .data          0x00800100        0x0 ../lib/liblibrairie1900.a(chercherExremite.o)
+ .data          0x00800100        0x0 ../lib/liblibrairie1900.a(del.o)
+ .data          0x00800100        0x1 ../lib/liblibrairie1900.a(memoire_24.o)
+                0x00800100                Memoire24CXXX::m_adresse_peripherique
+ .data          0x00800101        0x0 ../lib/liblibrairie1900.a(modeFonctionnement.o)
+ .data          0x00800101        0x0 ../lib/liblibrairie1900.a(musique.o)
+ .data          0x00800101        0x0 ../lib/liblibrairie1900.a(rapport.o)
+ .data          0x00800101        0x0 ../lib/liblibrairie1900.a(roue.o)
+ .data          0x00800101        0x0 ../lib/liblibrairie1900.a(trouverPoteau.o)
+ .data          0x00800101        0x0 ../lib/liblibrairie1900.a(usart.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(divsf3.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_round.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(sprintf.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(fputc.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .data          0x00800101        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x00800101       0x12 ../lib/liblibrairie1900.a(rapport.o)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800113      0x153 main.o
+                                 0x13 (size before relaxing)
+ .rodata.str1.1
+                0x00800266       0x1a ../lib/liblibrairie1900.a(capteurDistance.o)
+ .rodata.str1.1
+                0x00800266       0x20 ../lib/liblibrairie1900.a(chercherExremite.o)
+ .rodata.str1.1
+                0x00800266      0x120 ../lib/liblibrairie1900.a(rapport.o)
+ .rodata.str1.1
+                0x00800266        0x3 ../lib/liblibrairie1900.a(usart.o)
+ *(.gnu.linkonce.r*)
+                0x00800386                        . = ALIGN (0x2)
+                0x00800266                        _edata = .
+                0x00800266                        PROVIDE (__data_end = .)
+
+.bss            0x00800266        0x6
+                0x00800266                        PROVIDE (__bss_start = .)
+ *(.bss)
+ .bss           0x00800266        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ .bss           0x00800266        0x0 main.o
+ .bss           0x00800266        0x0 ../lib/liblibrairie1900.a(bouton.o)
+ .bss           0x00800266        0x0 ../lib/liblibrairie1900.a(can.o)
+ .bss           0x00800266        0x0 ../lib/liblibrairie1900.a(capteurDistance.o)
+ .bss           0x00800266        0x5 ../lib/liblibrairie1900.a(capteurLigne.o)
+                0x00800266                CapteurLigne::estDroiteActif
+                0x00800267                CapteurLigne::estDroiteMilieuActif
+                0x00800268                CapteurLigne::estMilieuActif
+                0x00800269                CapteurLigne::estGaucheMilieuActif
+                0x0080026a                CapteurLigne::estGaucheActif
+ .bss           0x0080026b        0x0 ../lib/liblibrairie1900.a(chercherExremite.o)
+ .bss           0x0080026b        0x0 ../lib/liblibrairie1900.a(del.o)
+ .bss           0x0080026b        0x0 ../lib/liblibrairie1900.a(memoire_24.o)
+ .bss           0x0080026b        0x0 ../lib/liblibrairie1900.a(modeFonctionnement.o)
+ .bss           0x0080026b        0x0 ../lib/liblibrairie1900.a(musique.o)
+ .bss           0x0080026b        0x0 ../lib/liblibrairie1900.a(rapport.o)
+ .bss           0x0080026b        0x0 ../lib/liblibrairie1900.a(roue.o)
+ .bss           0x0080026b        0x1 ../lib/liblibrairie1900.a(trouverPoteau.o)
+                0x0080026b                TrouverPoteau::boutonRelacheDetecte_
+ .bss           0x0080026c        0x0 ../lib/liblibrairie1900.a(usart.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(divsf3.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_round.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(sprintf.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(strnlen.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(fputc.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .bss           0x0080026c        0x0 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+                0x0080026c                        PROVIDE (__bss_end = .)
+                0x00002aa4                        __data_load_start = LOADADDR (.data)
+                0x00002c0a                        __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080026c        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x0080026c                        _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+                [!provide]                        PROVIDE (__flmap_init_label = DEFINED (__flmap_noinit_start)?__flmap_noinit_start:0x0)
+                [!provide]                        PROVIDE (__flmap = DEFINED (__flmap)?__flmap:0x0)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                        __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x26
+ *(.comment)
+ .comment       0x00000000       0x26 main.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(bouton.o)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(can.o)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(capteurDistance.o)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(capteurLigne.o)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(chercherExremite.o)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(del.o)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(memoire_24.o)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(modeFonctionnement.o)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(musique.o)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(rapport.o)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(roue.o)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(trouverPoteau.o)
+ .comment       0x00000026       0x27 ../lib/liblibrairie1900.a(usart.o)
+ .comment       0x00000026       0x27 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(sprintf.o)
+ .comment       0x00000026       0x27 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .comment       0x00000026       0x27 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/libc.a(fputc.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x308
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 main.o
+ .debug_aranges
+                0x00000028       0x20 ../lib/liblibrairie1900.a(bouton.o)
+ .debug_aranges
+                0x00000048       0x20 ../lib/liblibrairie1900.a(can.o)
+ .debug_aranges
+                0x00000068       0x20 ../lib/liblibrairie1900.a(capteurDistance.o)
+ .debug_aranges
+                0x00000088       0x20 ../lib/liblibrairie1900.a(capteurLigne.o)
+ .debug_aranges
+                0x000000a8       0x20 ../lib/liblibrairie1900.a(chercherExremite.o)
+ .debug_aranges
+                0x000000c8       0x20 ../lib/liblibrairie1900.a(del.o)
+ .debug_aranges
+                0x000000e8       0x20 ../lib/liblibrairie1900.a(memoire_24.o)
+ .debug_aranges
+                0x00000108       0x20 ../lib/liblibrairie1900.a(modeFonctionnement.o)
+ .debug_aranges
+                0x00000128       0x20 ../lib/liblibrairie1900.a(musique.o)
+ .debug_aranges
+                0x00000148       0x20 ../lib/liblibrairie1900.a(rapport.o)
+ .debug_aranges
+                0x00000168       0x20 ../lib/liblibrairie1900.a(roue.o)
+ .debug_aranges
+                0x00000188       0x20 ../lib/liblibrairie1900.a(trouverPoteau.o)
+ .debug_aranges
+                0x000001a8       0x20 ../lib/liblibrairie1900.a(usart.o)
+ .debug_aranges
+                0x000001c8       0x20 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .debug_aranges
+                0x000001e8       0x20 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .debug_aranges
+                0x00000208       0x20 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .debug_aranges
+                0x00000228       0x20 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .debug_aranges
+                0x00000248       0x20 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .debug_aranges
+                0x00000268       0x20 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x00000288       0x20 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_aranges
+                0x000002a8       0x20 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .debug_aranges
+                0x000002c8       0x20 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .debug_aranges
+                0x000002e8       0x20 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x9a65
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x6cc /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ .debug_info    0x000006cc     0x1c08 main.o
+ .debug_info    0x000022d4      0x30a ../lib/liblibrairie1900.a(bouton.o)
+ .debug_info    0x000025de      0x1d8 ../lib/liblibrairie1900.a(can.o)
+ .debug_info    0x000027b6      0x597 ../lib/liblibrairie1900.a(capteurDistance.o)
+ .debug_info    0x00002d4d     0x122a ../lib/liblibrairie1900.a(capteurLigne.o)
+ .debug_info    0x00003f77     0x12cb ../lib/liblibrairie1900.a(chercherExremite.o)
+ .debug_info    0x00005242      0x773 ../lib/liblibrairie1900.a(del.o)
+ .debug_info    0x000059b5      0x5fc ../lib/liblibrairie1900.a(memoire_24.o)
+ .debug_info    0x00005fb1      0x5a4 ../lib/liblibrairie1900.a(modeFonctionnement.o)
+ .debug_info    0x00006555      0x20a ../lib/liblibrairie1900.a(musique.o)
+ .debug_info    0x0000675f      0x7d3 ../lib/liblibrairie1900.a(rapport.o)
+ .debug_info    0x00006f32      0xc19 ../lib/liblibrairie1900.a(roue.o)
+ .debug_info    0x00007b4b     0x1b9a ../lib/liblibrairie1900.a(trouverPoteau.o)
+ .debug_info    0x000096e5      0x218 ../lib/liblibrairie1900.a(usart.o)
+ .debug_info    0x000098fd       0x24 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .debug_info    0x00009921       0x24 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .debug_info    0x00009945       0x24 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .debug_info    0x00009969       0x24 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .debug_info    0x0000998d       0x24 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .debug_info    0x000099b1       0x24 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .debug_info    0x000099d5       0x24 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_info    0x000099f9       0x24 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .debug_info    0x00009a1d       0x24 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .debug_info    0x00009a41       0x24 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+
+.debug_abbrev   0x00000000     0x2af0
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x66e /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ .debug_abbrev  0x0000066e      0x3d3 main.o
+ .debug_abbrev  0x00000a41      0x21c ../lib/liblibrairie1900.a(bouton.o)
+ .debug_abbrev  0x00000c5d      0x177 ../lib/liblibrairie1900.a(can.o)
+ .debug_abbrev  0x00000dd4      0x251 ../lib/liblibrairie1900.a(capteurDistance.o)
+ .debug_abbrev  0x00001025      0x307 ../lib/liblibrairie1900.a(capteurLigne.o)
+ .debug_abbrev  0x0000132c      0x373 ../lib/liblibrairie1900.a(chercherExremite.o)
+ .debug_abbrev  0x0000169f      0x2db ../lib/liblibrairie1900.a(del.o)
+ .debug_abbrev  0x0000197a      0x2e4 ../lib/liblibrairie1900.a(memoire_24.o)
+ .debug_abbrev  0x00001c5e      0x1ef ../lib/liblibrairie1900.a(modeFonctionnement.o)
+ .debug_abbrev  0x00001e4d      0x15a ../lib/liblibrairie1900.a(musique.o)
+ .debug_abbrev  0x00001fa7      0x210 ../lib/liblibrairie1900.a(rapport.o)
+ .debug_abbrev  0x000021b7      0x2a6 ../lib/liblibrairie1900.a(roue.o)
+ .debug_abbrev  0x0000245d      0x457 ../lib/liblibrairie1900.a(trouverPoteau.o)
+ .debug_abbrev  0x000028b4      0x174 ../lib/liblibrairie1900.a(usart.o)
+ .debug_abbrev  0x00002a28       0x14 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .debug_abbrev  0x00002a3c       0x14 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .debug_abbrev  0x00002a50       0x14 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .debug_abbrev  0x00002a64       0x14 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .debug_abbrev  0x00002a78       0x14 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .debug_abbrev  0x00002a8c       0x14 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .debug_abbrev  0x00002aa0       0x14 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x00002ab4       0x14 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .debug_abbrev  0x00002ac8       0x14 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .debug_abbrev  0x00002adc       0x14 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+
+.debug_line     0x00000000     0x6a68
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1d /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ .debug_line    0x0000001d      0x499 main.o
+ .debug_line    0x000004b6      0x2e9 ../lib/liblibrairie1900.a(bouton.o)
+ .debug_line    0x0000079f      0x183 ../lib/liblibrairie1900.a(can.o)
+ .debug_line    0x00000922      0x27d ../lib/liblibrairie1900.a(capteurDistance.o)
+ .debug_line    0x00000b9f     0x1001 ../lib/liblibrairie1900.a(capteurLigne.o)
+ .debug_line    0x00001ba0      0xc3e ../lib/liblibrairie1900.a(chercherExremite.o)
+ .debug_line    0x000027de      0x61d ../lib/liblibrairie1900.a(del.o)
+ .debug_line    0x00002dfb      0xe8a ../lib/liblibrairie1900.a(memoire_24.o)
+ .debug_line    0x00003c85      0x1ac ../lib/liblibrairie1900.a(modeFonctionnement.o)
+ .debug_line    0x00003e31      0x143 ../lib/liblibrairie1900.a(musique.o)
+ .debug_line    0x00003f74      0x496 ../lib/liblibrairie1900.a(rapport.o)
+ .debug_line    0x0000440a      0x72c ../lib/liblibrairie1900.a(roue.o)
+ .debug_line    0x00004b36     0x167c ../lib/liblibrairie1900.a(trouverPoteau.o)
+ .debug_line    0x000061b2      0x21a ../lib/liblibrairie1900.a(usart.o)
+ .debug_line    0x000063cc       0x8d /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .debug_line    0x00006459       0xb7 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .debug_line    0x00006510      0x111 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .debug_line    0x00006621       0x51 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .debug_line    0x00006672       0x69 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .debug_line    0x000066db       0x87 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .debug_line    0x00006762       0x75 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_line    0x000067d7       0xbd /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .debug_line    0x00006894       0xed /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .debug_line    0x00006981       0xe7 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+
+.debug_frame    0x00000000      0xba0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x84 main.o
+ .debug_frame   0x00000084       0x54 ../lib/liblibrairie1900.a(bouton.o)
+ .debug_frame   0x000000d8       0x44 ../lib/liblibrairie1900.a(can.o)
+ .debug_frame   0x0000011c       0xa8 ../lib/liblibrairie1900.a(capteurDistance.o)
+ .debug_frame   0x000001c4      0x214 ../lib/liblibrairie1900.a(capteurLigne.o)
+ .debug_frame   0x000003d8       0xec ../lib/liblibrairie1900.a(chercherExremite.o)
+ .debug_frame   0x000004c4       0xf0 ../lib/liblibrairie1900.a(del.o)
+ .debug_frame   0x000005b4       0xd4 ../lib/liblibrairie1900.a(memoire_24.o)
+ .debug_frame   0x00000688       0x54 ../lib/liblibrairie1900.a(modeFonctionnement.o)
+ .debug_frame   0x000006dc       0x80 ../lib/liblibrairie1900.a(musique.o)
+ .debug_frame   0x0000075c       0xc0 ../lib/liblibrairie1900.a(rapport.o)
+ .debug_frame   0x0000081c      0x1b8 ../lib/liblibrairie1900.a(roue.o)
+ .debug_frame   0x000009d4      0x13c ../lib/liblibrairie1900.a(trouverPoteau.o)
+ .debug_frame   0x00000b10       0x90 ../lib/liblibrairie1900.a(usart.o)
+
+.debug_str      0x00000000     0x2b27
+ *(.debug_str)
+ .debug_str     0x00000000      0x255 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/../../../../../../avr/lib/avr5/crtatmega324pa.o
+ .debug_str     0x00000255     0x28d2 main.o
+                               0x1f93 (size before relaxing)
+ .debug_str     0x00002b27      0x2a2 ../lib/liblibrairie1900.a(bouton.o)
+ .debug_str     0x00002b27      0x1d7 ../lib/liblibrairie1900.a(can.o)
+ .debug_str     0x00002b27      0x5a9 ../lib/liblibrairie1900.a(capteurDistance.o)
+ .debug_str     0x00002b27      0xd38 ../lib/liblibrairie1900.a(capteurLigne.o)
+ .debug_str     0x00002b27     0x14c7 ../lib/liblibrairie1900.a(chercherExremite.o)
+ .debug_str     0x00002b27      0x382 ../lib/liblibrairie1900.a(del.o)
+ .debug_str     0x00002b27      0x38a ../lib/liblibrairie1900.a(memoire_24.o)
+ .debug_str     0x00002b27      0x57d ../lib/liblibrairie1900.a(modeFonctionnement.o)
+ .debug_str     0x00002b27      0x286 ../lib/liblibrairie1900.a(musique.o)
+ .debug_str     0x00002b27      0x5af ../lib/liblibrairie1900.a(rapport.o)
+ .debug_str     0x00002b27      0x658 ../lib/liblibrairie1900.a(roue.o)
+ .debug_str     0x00002b27     0x1ac3 ../lib/liblibrairie1900.a(trouverPoteau.o)
+ .debug_str     0x00002b27      0x250 ../lib/liblibrairie1900.a(usart.o)
+ .debug_str     0x00002b27       0x84 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .debug_str     0x00002b27       0x84 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .debug_str     0x00002b27       0x84 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .debug_str     0x00002b27       0x84 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .debug_str     0x00002b27       0x84 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .debug_str     0x00002b27       0x84 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .debug_str     0x00002b27       0x84 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_str     0x00002b27       0x84 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .debug_str     0x00002b27       0x84 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .debug_str     0x00002b27       0x84 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x00000000      0x2ea
+ *(.debug_line_str)
+ .debug_line_str
+                0x00000000      0x2ea main.o
+                                0x1bc (size before relaxing)
+ .debug_line_str
+                0x000002ea      0x12d ../lib/liblibrairie1900.a(bouton.o)
+ .debug_line_str
+                0x000002ea       0xda ../lib/liblibrairie1900.a(can.o)
+ .debug_line_str
+                0x000002ea      0x126 ../lib/liblibrairie1900.a(capteurDistance.o)
+ .debug_line_str
+                0x000002ea      0x14c ../lib/liblibrairie1900.a(capteurLigne.o)
+ .debug_line_str
+                0x000002ea      0x18e ../lib/liblibrairie1900.a(chercherExremite.o)
+ .debug_line_str
+                0x000002ea      0x121 ../lib/liblibrairie1900.a(del.o)
+ .debug_line_str
+                0x000002ea       0xf6 ../lib/liblibrairie1900.a(memoire_24.o)
+ .debug_line_str
+                0x000002ea      0x129 ../lib/liblibrairie1900.a(modeFonctionnement.o)
+ .debug_line_str
+                0x000002ea       0xea ../lib/liblibrairie1900.a(musique.o)
+ .debug_line_str
+                0x000002ea       0xf2 ../lib/liblibrairie1900.a(rapport.o)
+ .debug_line_str
+                0x000002ea      0x125 ../lib/liblibrairie1900.a(roue.o)
+ .debug_line_str
+                0x000002ea      0x19a ../lib/liblibrairie1900.a(trouverPoteau.o)
+ .debug_line_str
+                0x000002ea       0xea ../lib/liblibrairie1900.a(usart.o)
+ .debug_line_str
+                0x000002ea       0x78 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodqi4.o)
+ .debug_line_str
+                0x000002ea       0x78 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_divmodhi4.o)
+ .debug_line_str
+                0x000002ea       0x78 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodsi4.o)
+ .debug_line_str
+                0x000002ea       0x78 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_exit.o)
+ .debug_line_str
+                0x000002ea       0x78 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_tablejump2.o)
+ .debug_line_str
+                0x000002ea       0x78 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_copy_data.o)
+ .debug_line_str
+                0x000002ea       0x78 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_clear_bss.o)
+ .debug_line_str
+                0x000002ea       0x78 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_udivmodhi4.o)
+ .debug_line_str
+                0x000002ea       0x78 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_prologue.o)
+ .debug_line_str
+                0x000002ea       0x78 /opt/homebrew/Cellar/avr-gcc@14/14.1.0/lib/avr-gcc/14/gcc/avr/14.1.0/avr5/libgcc.a(_epilogue.o)
+
+.debug_loclists
+                0x00000000     0x28b4
+ *(.debug_loclists)
+ .debug_loclists
+                0x00000000      0x1af main.o
+ .debug_loclists
+                0x000001af      0x102 ../lib/liblibrairie1900.a(bouton.o)
+ .debug_loclists
+                0x000002b1       0x7f ../lib/liblibrairie1900.a(can.o)
+ .debug_loclists
+                0x00000330       0xe1 ../lib/liblibrairie1900.a(capteurDistance.o)
+ .debug_loclists
+                0x00000411      0xb06 ../lib/liblibrairie1900.a(capteurLigne.o)
+ .debug_loclists
+                0x00000f17      0x2d8 ../lib/liblibrairie1900.a(chercherExremite.o)
+ .debug_loclists
+                0x000011ef      0x478 ../lib/liblibrairie1900.a(del.o)
+ .debug_loclists
+                0x00001667      0x32b ../lib/liblibrairie1900.a(memoire_24.o)
+ .debug_loclists
+                0x00001992       0xaf ../lib/liblibrairie1900.a(modeFonctionnement.o)
+ .debug_loclists
+                0x00001a41       0x67 ../lib/liblibrairie1900.a(musique.o)
+ .debug_loclists
+                0x00001aa8      0x164 ../lib/liblibrairie1900.a(rapport.o)
+ .debug_loclists
+                0x00001c0c      0x622 ../lib/liblibrairie1900.a(roue.o)
+ .debug_loclists
+                0x0000222e      0x604 ../lib/liblibrairie1900.a(trouverPoteau.o)
+ .debug_loclists
+                0x00002832       0x82 ../lib/liblibrairie1900.a(usart.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x00000000      0x150
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x00000000       0x1a main.o
+ .debug_rnglists
+                0x0000001a       0x73 ../lib/liblibrairie1900.a(capteurLigne.o)
+ .debug_rnglists
+                0x0000008d       0x21 ../lib/liblibrairie1900.a(chercherExremite.o)
+ .debug_rnglists
+                0x000000ae       0x3c ../lib/liblibrairie1900.a(del.o)
+ .debug_rnglists
+                0x000000ea       0x53 ../lib/liblibrairie1900.a(trouverPoteau.o)
+ .debug_rnglists
+                0x0000013d       0x13 ../lib/liblibrairie1900.a(usart.o)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(exec.elf elf32-avr)
+LOAD linker stubs
